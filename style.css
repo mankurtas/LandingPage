@@ -97,6 +97,7 @@ a {
 .main {
     padding-left: 100px;
     padding-right: 100px;
+    margin-bottom: 80px;
 }
 
 .main h3 {
@@ -126,4 +127,29 @@ a {
 
 .container-paragraphs p {
     margin-top: 8px;
+}
+
+.testimonial-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-section div:first-child {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.testimonial-section p {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.testimonial-section div:nth-child(2){
+    text-align: right;
+    font-weight: 800;
 }
